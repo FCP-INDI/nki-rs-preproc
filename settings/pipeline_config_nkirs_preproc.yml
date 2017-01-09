@@ -391,7 +391,7 @@ clusterSize :  27
 
 
 # Calculate Degree, Eigenvector Centrality, or Functional Connectivity Density.
-runNetworkCentrality :  [0]
+runNetworkCentrality :  [1]
 
 
 # Full path to a NIFTI file describing the mask. Centrality will be calculated for all voxels within the mask.
@@ -414,7 +414,7 @@ degCorrelationThreshold :  0.001
 
 
 # Enable/Disable eigenvector centrality by selecting the connectivity weights
-eigWeightOptions :  [False, False]
+eigWeightOptions :  [True, True]
 
 
 # Select the type of threshold used when creating the eigenvector centrality adjacency matrix.
