@@ -1,0 +1,22 @@
+subjectList  :  None 
+
+awsCredentialsFile  :  None 
+
+functionalTemplate  :  /data2/bids_warehouse/{site}/{participant}/{session}/func/*_bold.nii.gz 
+
+anatomicalTemplate  :  /data2/bids_warehouse/{site}/{participant}/{session}/anat/*_T1w.nii.gz 
+
+subjectListName  :  NKI-RS 
+
+outputSubjectListLocation  :  /home/jpellman/nki-rs-preproc 
+
+dataFormat  :  ['Custom'] 
+
+exclusionSubjectList  :  None 
+
+siteList  :  ['Anonymized'] 
+
+scanParametersCSV  :  None 
+
+bidsBaseDir  :  [''] 
+
